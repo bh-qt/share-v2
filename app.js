@@ -12,10 +12,9 @@ let readSync = util.readSync
 let writeSync = util.writeSync
 
 let BUILD_DIR = 'dist' // 构建目录
-let url = '//suc.bihai.ml/sub?target=ssr&url=https://proxypoolss.tk/clash/proxies?c=HK,TW,JP,SG,CN&list=true&filename=node.txt' // SS(R)入口
-// let ENTRY_FILE = './node.txt'
+let ENTRY_FILE = './node.txt'
 
-let str = readSync(url)
+let str = readSync(ENTRY_FILE)
 
 let checker = item => {
     return item => item.includes('ssr://') || item.includes('ss"//')
