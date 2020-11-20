@@ -12,7 +12,7 @@ let readSync = util.readSync
 let writeSync = util.writeSync
 
 let BUILD_DIR = 'dist' // 构建目录
-let ENTRY_FILE = '//suc.bihai.ml/sub?target=v2ray&url=https%3A%2F%2Fproxypoolss.tk%2Fclash%2Fproxies%3Fc%3DHK%2CTW%2CJP%2CSG%2CCN' // SS(R)入口
+let ENTRY_FILE = 'https://suc.bihai.ml/sub?target=v2ray&url=https://proxypoolss.tk/clash/proxies?c=HK,TW,JP,SG,CN' // SS(R)入口
 let str = readSync(ENTRY_FILE)
 
 let checker = item => {
