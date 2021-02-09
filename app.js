@@ -5,7 +5,9 @@
 /**
  * 开发依赖
  */
-let path = require('path')
+ 
+//let path = require('path') URL
+let URL = require('URL') 
 let util = require('./util')
 let base64 = util.base64
 let readSync = util.readSync
