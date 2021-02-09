@@ -12,7 +12,8 @@ let readSync = util.readSync
 let writeSync = util.writeSync
 
 let BUILD_DIR = 'dist' // 构建目录
-let ENTRY_FILE = './node.txt'
+// let ENTRY_FILE = './node.txt'
+let ENTRY_FILE = '//gh.188ck.cn/ss/ssdy.txt'
 
 let str = readSync(ENTRY_FILE)
 
